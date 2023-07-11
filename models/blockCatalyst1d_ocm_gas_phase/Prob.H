@@ -74,7 +74,7 @@ void initdata(Box const& bx, Array4<Real> const& phi, GeometryData const& geomda
                 vfrac*=eighth;
                 phi(i,j,k,VFRAC_INDX) = vfrac;
 
-                spec[SITE1_ID]=1.0-vfrac;
+                spec[S1_ID]=1.0-vfrac;
                 
                 phi(i,j,k,PRES_INDX) = one;
                 phi(i,j,k,DENS_INDX) = one;
